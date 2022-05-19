@@ -6,7 +6,18 @@ const About = () => {
     
     return (
         <Container className="d-flex flex-column">
-            About
+             <Row>
+                <Col>
+                    <Card>
+                        <div className="text-block-50 p-5">
+                            <h3>О нас</h3>
+                            
+                            <br />
+                            Курсовой проект студента группы ИКБО-02-19 Золотухина Святослава.
+                        </div>
+                    </Card>
+                </Col>
+            </Row>
         </Container>
     );
 };
